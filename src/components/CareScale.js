@@ -2,7 +2,7 @@ import Sun from '../assets/sun.svg'
 import Water from '../assets/water.svg'
 
 export default function CareScale({scaleValue, careType}) {
-
+	
     const range = [1, 2, 3]
 	
 	const quantityLabel = {
@@ -16,8 +16,6 @@ export default function CareScale({scaleValue, careType}) {
 		) : (
 			<img src={Water} alt='water-icon' />
 		)
-
-	
 	return (
 		<div 
 			onClick={() =>
