@@ -1,7 +1,7 @@
+//import succulent from '../assets/succulent.jpg'
 import monstera from '../assets/monstera.jpg'
 import lyrata from '../assets/lyrata.jpg'
 import pothos from '../assets/pothos.jpg'
-import succulent from '../assets/succulent.jpg'
 import olivier from '../assets/olivier.jpg'
 import basil from '../assets/basil.jpg'
 import mint from '../assets/mint.jpg'
@@ -75,16 +75,6 @@ const plantList = [
 		price: 5
 	},
 	{
-		name: 'succulente',
-		category: 'plante grasse',
-		id: '9vn',
-		light: 2,
-		water: 1,
-		cover: succulent,
-		price: 8
-	},
-
-	{
 		name: 'menthe',
 		category: 'extérieur',
 		id: '6uo',
@@ -92,7 +82,8 @@ const plantList = [
 		water: 2,
 		cover: mint,
 		price: 4
-	}
+	},
+	
 ]
 
 export default plantList;

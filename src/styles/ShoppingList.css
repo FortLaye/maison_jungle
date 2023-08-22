@@ -3,7 +3,8 @@
 	padding: 32px;
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 800px;
+	justify-content: space-evenly;
+	max-width: 100%;
 }
 .title-green{
 	color: green;
@@ -11,3 +12,4 @@
 .title-red{
 	color: red;
 }
+

@@ -1,9 +1,10 @@
-import React from 'react'
 import '../styles/Categories.css'
 
 export default function Categories({categories, activeCategory, setActiveCategory}) {
-  return (
-    <div className='lmj-categories'>
+
+
+    return (
+    	<div className='lmj-categories'>
 			<select
 				value={activeCategory}
 				onChange={(e) => setActiveCategory(e.target.value)}
@@ -18,5 +19,5 @@ export default function Categories({categories, activeCategory, setActiveCategor
 			</select>
 			<button onClick={() => setActiveCategory('')}>Réinitialiser</button>
 		</div>
-  )
+    )
 }

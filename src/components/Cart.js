@@ -11,17 +11,17 @@ function Cart({cart, updateCart}) {
     )
 
     useEffect(() => {
-        document.title = `LMJ: ${total}€ d'achat`
+        document.title = `LMJ: ${total}€ d'achat`;
     }, [total])
     
     return isOpen ? (
     <div className="lmj-cart">
         <button
-				className='lmj-cart-toggle-button'
-				onClick={() => setIsOpen(false)}
-			>
-				Fermer
-			</button>
+			className='lmj-cart-toggle-button'
+			onClick={() => setIsOpen(false)}
+		>
+			Fermer
+		</button>
 			{cart.length > 0 ? (
 				<div>
 					<h2>Panier</h2>
